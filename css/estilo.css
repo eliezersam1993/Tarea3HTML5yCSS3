@@ -95,3 +95,10 @@ nav ul li{
 	text-decoration: none;
 	display: block;
 }
+#indice li a:hover{
+	color: orange;
+}
+
+#indice li a:active{
+	color: yellow;
+}
