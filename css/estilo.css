@@ -1,10 +1,11 @@
 body {
-	background: black;
 	color: white;
+	background: black;
+	background: url("../img/bg.jpg") no-repeat black;
 }
 
 header{
-	height: 150px;
+	height: 200px;
 }
 
 #menu a{
@@ -20,7 +21,7 @@ nav{
 	width: 46%;
 	float: left;
 	margin: 1%;
-	border: 1px solid white;/*Shorthands*/
+	/*border: 1px solid white;horthands*/
 	padding: .5%
 }
 
@@ -66,4 +67,31 @@ nav{
 
 #pie-pagina{
 	clear: both;
+}
+
+#menu a{
+	background: orange;
+	padding: 5px;
+}
+
+.articulo img{
+
+	margin: 18px;
+
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+}
+
+#menu a:hover{
+	background: gray;
+}
+#menu a{
+	background: orange;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	display: block;
 }
